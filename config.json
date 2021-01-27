@@ -1,0 +1,20 @@
+{
+  "database":{
+    "host": "localhost",
+    "basename": "elysium",
+    "username": "root",
+    "passwd": "",
+    "port": "3306",
+
+    "tablename": "vrp_newbie_bonus"
+  },
+
+  "bot":{
+    "token": "봇의 토큰"
+  },
+
+  "botsettings":{
+    "channel": "인증채널의 ID",
+    "role": "지급할 역할의 ID"
+  }
+}
