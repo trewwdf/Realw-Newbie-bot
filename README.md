@@ -6,6 +6,29 @@ Python version.
 
 마음대로 수정하셔서 쓰시면 되고, 난독화는 하지 않았습니다. (설마 판매하는 사람은 없겠죠?)
 
+## **Setting**
+
+Linux/macOS
+```
+python3 -m pip install -U discord.py
+python3 -m pip install -U pymysql
+```
+Windows
+```
+py -3 -m pip install -U discord.py
+py -3 -m pip install -U pymysql
+```
+
+### 모듈 설치 중 에러 발생 시
+
+Linux/macOS
+```
+py -3 -m pip install -U wheel
+```
+Windows
+```
+python3 -m pip install -U wheel
+```
 ## Database Config
 
 - config.json을 꼭 수정해주세요.
@@ -39,9 +62,6 @@ Python version.
 파이썬은 알아서 설치해주세요. (3.8.x 버전으로 추천)
 
 MySQL 관련 오류는 알아서 고쳐주세요.
-
-`pip install pymysql`
-`pip install discord.py`
 
 ###### Windows
 ```
