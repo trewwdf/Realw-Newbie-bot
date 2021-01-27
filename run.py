@@ -23,15 +23,6 @@ except Exception as e:
 
 code = int(input('코드를 입력해주세요. : '))
 
-if code == 54312:
-    print('승인되었습니다. 2초 후 시작됩니다.')
-    time.sleep(2)
-    os.system('cls')
-else:
-    print('중지되었습니다.')
-    ctypes.windll.user32.MessageBoxW(0, f"코드가 올바르지 않아, 종료되었습니다.", "Error", 0)
-    quit()
-
 try:
     bot.run(token)
 except discord.LoginFailure as e:
