@@ -40,6 +40,9 @@ Python version.
 
 MySQL 관련 오류는 알아서 고쳐주세요.
 
+`pip install pymysql`
+`pip install discord.py`
+
 ###### Windows
 ```
 git clone https://github.com/Daekwon0609/py_newbie
