@@ -21,8 +21,6 @@ try:
 except Exception as e:
     ctypes.windll.user32.MessageBoxW(0, f"오류가 발생하였습니다.\n\n{e}", "Error", 0)
 
-code = int(input('코드를 입력해주세요. : '))
-
 try:
     bot.run(token)
 except discord.LoginFailure as e:
