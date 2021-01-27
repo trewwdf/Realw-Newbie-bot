@@ -60,8 +60,7 @@ class newbie(commands.Cog):
                             await ctx.send(f'{message.author.mention}, 인증되었습니다. 게임의 "지원받기"에서 E키를 누르세요.')
                             return await message.author.add_roles(discord.utils.get(message.guild.roles, id=int(newbiero)))
                         elif check3 is not None:
-                            await ctx.send(f'{message.author.mention}, 이미 인증되었습니다.')
-                            return await message.author.add_roles(discord.utils.get(message.guild.roles, id=int(newbiero)))
+                            return await ctx.send(f'{message.author.mention}, 이미 인증되었습니다.')
                 elif message.content.startswith(""):
                     if message.channel.id != int(newbiech):
                         pass
