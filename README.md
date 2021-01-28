@@ -1,10 +1,18 @@
 # Realw Newbie bot
 
+![python](https://img.shields.io/pypi/pyversions/discord.py.svg)
+
+해당 프로젝트는 RAID 서버에 배포하기 위해 제작되었습니다.
+
+클릭하시면 접속됩니다.
+
+[![RAID Join](https://discord.com/api/guilds/678572912797679617/widget.png?style=banner2)](https://discord.gg/raidkr)
+
 FiveM 리얼월드 서버팩의 데이터베이스 기반으로 제작하였습니다.
 
-Python version.
-
 마음대로 수정하셔서 쓰시면 되고, 난독화는 하지 않았습니다. (설마 판매하는 사람은 없겠죠?)
+
+배포하더라도, 출처는 꼭 밝혀주세요! (해당 Github 주소 첨부 필수)
 
 ## **Setting**
 
@@ -19,16 +27,6 @@ py -3 -m pip install -U discord.py
 py -3 -m pip install -U pymysql
 ```
 
-### 모듈 설치 중 에러 발생 시
-
-Linux/macOS
-```
-py -3 -m pip install -U wheel
-```
-Windows
-```
-python3 -m pip install -U wheel
-```
 ## Database Config
 
 - config.json을 꼭 수정해주세요.
@@ -63,17 +61,16 @@ python3 -m pip install -U wheel
 
 MySQL 관련 오류는 알아서 고쳐주세요.
 
-###### Windows
-```
-git clone https://github.com/Daekwon0609/py_newbie
 
-python -m run.py
-```
-###### Linux
+**모듈 설치 중 에러 발생 시**
+
+Linux/macOS
 ```bash
-git clone https://github.com/Daekwon0609/py_newbie
-
-python3 -m run.py
+py -3 -m pip install -U wheel
+```
+Windows
+```c
+python3 -m pip install -U wheel
 ```
 
 Made by daekwon#0001 (Discord)
