@@ -16,6 +16,8 @@ FiveM 리얼월드 서버팩의 데이터베이스 기반으로 제작하였습�
 
 ## **Setting**
 
+파이썬은 알아서 설치해주세요. (3.8.x 버전으로 설치해주세요 (3.9 버전 X))
+
 Linux/macOS
 ```
 python3 -m pip install -U discord.py
@@ -56,8 +58,6 @@ py -3 -m pip install -U pymysql
  - 역할 ID가 어디있는지 모른다면, [이곳을 눌러 확인하세요.](https://www.youtube.com/watch?v=Xme4lBvrCN8) 유튜브 링크
 
 ## Other
-
-파이썬은 알아서 설치해주세요. (3.8.x 버전으로 추천)
 
 MySQL 관련 오류는 알아서 고쳐주세요.
 
