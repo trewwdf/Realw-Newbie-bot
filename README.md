@@ -8,9 +8,7 @@
 
 [![RAID Join](https://discord.com/api/guilds/678572912797679617/widget.png?style=banner2)](https://discord.gg/raidkr)
 
-FiveM 리얼월드 서버팩의 데이터베이스 기반으로 제작하였습니다.
-
-난독화는 하지 않았습니다. (설마 판매하는 사람은 없겠죠?)
+![FiveM 리얼월드 서버팩의 데이터베이스 기반으로 제작하였습니다.](https://github.com/fivem-realw/RWServer)
 
 배포하더라도, 출처는 꼭 밝혀주세요! (해당 Github 주소 첨부 필수)
 
