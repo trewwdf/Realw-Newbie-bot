@@ -1,4 +1,4 @@
-import discord, ctypes, webbrowser, json, shutil, os, time
+import discord, ctypes, webbrowser, json, os, time
 from discord.ext import commands
 
 with open('config.json', 'r', encoding="utf-8") as f:
@@ -9,9 +9,9 @@ bot.remove_command("help")
 token = json.data['bot']['token']
 
 cogs = [
-    "commands.newbie",
-    "events.error",
-    "events.ready"
+    "newbie",
+    "error",
+    "ready"
 ]
 
 try:

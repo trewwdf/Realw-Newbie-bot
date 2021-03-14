@@ -9,7 +9,6 @@ class ready(commands.Cog):
         print(self.bot.user)
         print(self.bot.user.id)
         print('뉴비인증 봇')
-        print('Made by daekwon#0001')
 
 def setup(bot):
     bot.add_cog(ready(bot))
