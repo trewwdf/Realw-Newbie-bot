@@ -2,10 +2,6 @@
 
 ![python](https://img.shields.io/pypi/pyversions/discord.py.svg)
 
-해당 프로젝트는 RAID 서버에 배포하기 위해 제작되었습니다.
-
-클릭하시면 접속됩니다.
-
 [![RAID Join](https://discord.com/api/guilds/678572912797679617/widget.png?style=banner2)](https://discord.gg/raidkr)
 
 [FiveM 리얼월드 서버팩의 데이터베이스 기반으로 제작하였습니다.](https://github.com/fivem-realw/RWServer)
@@ -16,7 +12,7 @@
 
 ## **Setting**
 
-파이썬은 알아서 설치해주세요. (3.8.x 버전으로 설치해주세요 (3.9 버전 X))
+[Python 다운로드하려면 여기를 클릭해주세요.](https://www.python.org/ftp/python/3.8.6/python-3.8.6-amd64.exe)
 
 Linux/macOS
 ```
@@ -70,7 +66,7 @@ py -3 -m pip install -U wheel
 ```
 Windows
 ```c
-python3 -m pip install -U wheel
+python -m pip install -U wheel
 ```
 
 Made by daekwon#0001 (Discord)
