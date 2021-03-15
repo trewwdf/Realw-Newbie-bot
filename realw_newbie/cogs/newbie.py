@@ -1,19 +1,17 @@
 import pymysql, discord, json, datetime
 from discord.ext import commands
-
-with open('config.json', 'r', encoding="utf-8") as f:
-    json.data = json.load(f)
+from realw_newbie.bot import json_data
 
 
-host = json.data['database']['host']
-basename = json.data['database']['basename']
-tablename = json.data['database']['tablename']
-username = json.data['database']['username']
-password = json.data['database']['passwd']
-port = json.data['database']['port']
+host = json_data['database']['host']
+basename = json_data['database']['basename']
+tablename = json_data['database']['tablename']
+username = json_data['database']['username']
+password = json_data['database']['passwd']
+port = json_data['database']['port']
 
-newbiech = json.data['botsettings']['channel']
-newbiero = json.data['botsettings']['role']
+newbiech = json_data['botsettings']['channel']
+newbiero = json_data['botsettings']['role']
 
 connection = pymysql.connect(host=host, user=username, password=password, database=basename, port=int(port), max_allowed_packet=2147483648, autocommit=True)
 cur = connection.cursor()

@@ -1,3 +1,3 @@
 @echo off
 
-start python run.py
+start python -B -m realw_newbie

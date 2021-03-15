@@ -1,7 +1,7 @@
 {
   "database":{
     "host": "localhost",
-    "basename": "vrpfx",
+    "basename": "test",
     "username": "root",
     "passwd": "",
     "port": "3306",
@@ -10,11 +10,11 @@
   },
 
   "bot":{
-    "token": "봇의 토큰"
+    "token": "NzIyMjc4NTExMTQxNzE2MDMw.XugwSA.9jmzw0HknyheRZXLpwo10Uq0X-E"
   },
 
   "botsettings":{
-    "channel": "인증채널의 ID",
-    "role": "지급할 역할의 ID"
+    "channel": "781527241904357396",
+    "role": "764169557291302914"
   }
 }

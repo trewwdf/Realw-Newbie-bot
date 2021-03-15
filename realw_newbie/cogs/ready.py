@@ -8,7 +8,7 @@ class ready(commands.Cog):
     async def on_ready(self):
         print(self.bot.user)
         print(self.bot.user.id)
-        print('뉴비인증 봇')
+        print('Newbie BOT has Ready.')
 
 def setup(bot):
     bot.add_cog(ready(bot))
