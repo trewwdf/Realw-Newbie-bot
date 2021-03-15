@@ -12,18 +12,7 @@
 
 ## **Setting**
 
-[Python 다운로드하려면 여기를 클릭해주세요.](https://www.python.org/ftp/python/3.8.6/python-3.8.6-amd64.exe)
-
-Linux/macOS
-```
-python3 -m pip install -U discord.py
-python3 -m pip install -U pymysql
-```
-Windows
-```
-py -3 -m pip install -U discord.py
-py -3 -m pip install -U pymysql
-```
+[Python 다운로드하기!](https://www.python.org/ftp/python/3.8.6/python-3.8.6-amd64.exe)
 
 ## Database Config
 
