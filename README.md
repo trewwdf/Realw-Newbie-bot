@@ -31,7 +31,9 @@ py -3 -m pip install -U pymysql
 
   - 자신의 데이터베이스 설정대로 수정해주세요. (기본값에 맞춰 미리 설정하였습니다)
 
-  - **테이블 이름**은 **리얼월드 서버팩** `vrp_newbie` 스크립트에 맞춰 `vrp_newbie_bonus`로 하였습니다. (다르다면 수정해주세요)
+  - **테이블 이름**은 **리얼월드 서버팩** `vrp_newbie` 스크립트에 맞춰 `vrp_newbie_bonus`로 하였습니다.
+
+    - **모두 config.json에서 수정하실 수 있습니다.**
 
 ## Bot Config
 
