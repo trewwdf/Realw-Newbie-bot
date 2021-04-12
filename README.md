@@ -1,7 +1,5 @@
 # Realw Newbie bot
 
-![python](https://img.shields.io/pypi/pyversions/discord.py.svg)
-
 [![RAID Join](https://discord.com/api/guilds/678572912797679617/widget.png?style=banner2)](https://discord.gg/raidkr)
 
 [FiveM 리얼월드 서버팩의 데이터베이스 기반으로 제작하였습니다.](https://github.com/fivem-realw/RWServer)
