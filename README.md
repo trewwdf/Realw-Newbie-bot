@@ -58,4 +58,4 @@ Windows
 python -m pip install -U wheel
 ```
 
-Made by #0001 (Discord)
+Made by daekwon#0001 (Discord)
