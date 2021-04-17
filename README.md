@@ -57,5 +57,3 @@ Windows
 ```c
 python -m pip install -U wheel
 ```
-
-Made by daekwon#0001 (Discord)
