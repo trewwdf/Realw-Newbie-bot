@@ -1,12 +1,10 @@
-import os
 import discord
 import webbrowser
 import ctypes
-from realw_newbie.bot import bot, token, load_extension, load_module
+from realw_newbie.bot import bot, token, load_extension
 
 
 try:
-    load_module()
     load_extension()
     bot.run(token)
 except discord.LoginFailure as e:
