@@ -3,7 +3,6 @@ import webbrowser
 import ctypes
 from realw_newbie.bot import bot, token, load_extension
 
-
 try:
     load_extension()
     bot.run(token)
