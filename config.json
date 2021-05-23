@@ -10,11 +10,11 @@
   },
 
   "bot":{
-    "token": "NzIyMjc4NTExMTQxNzE2MDMw.XugwSA.xgZfa3aBnV2iYTRt8wDwdw_UOLg"
+    "token": "토큰"
   },
 
   "botsettings":{
-    "channel": "827027122769100851",
-    "role": "769224828171059282"
+    "channel": "채널 id",
+    "role": "인증 역할"
   }
 }
