@@ -1,4 +1,4 @@
-import aiomysql, discord, random
+import aiomysql, discord,
 from discord.ext import commands
 from realw_newbie.bot import json_data
 
@@ -27,7 +27,6 @@ class newbie(commands.Cog):
         msg = message.content
         ctx = message.channel
 
-        random_code = random.randrange(111111, 999999)
         try:
             if message.author.bot:
                 return None
@@ -42,7 +41,7 @@ class newbie(commands.Cog):
                         try:
                             code = int(q)
                         except ValueError:
-                            return await ctx.send(f'{message.author.mention}, 올바르지 않은 입력. 예시처럼 띄어쓰기 없이 정확히 입력해주세요. 예시: **뉴비인증#{random_code}**')
+                            return await ctx.send(f'{message.author.mention}, 올바르지 않은 입력. 예시처럼 띄어쓰기 없이 정확히 입력해주세요. 예시: **뉴비인증#312512**')
                         
 
                         await cur.execute(f'select code from {tablename} where code="{code}"')
@@ -58,11 +57,11 @@ class newbie(commands.Cog):
                         check3 = await cur.fetchone()
 
                         if len(q) == 0:
-                            return await ctx.send(f'{message.author.mention}, 올바르지 않은 입력. 예시처럼 띄어쓰기 없이 정확히 입력해주세요. 예시: **뉴비인증#{random_code}**')
+                            return await ctx.send(f'{message.author.mention}, 올바르지 않은 입력. 예시처럼 띄어쓰기 없이 정확히 입력해주세요. 예시: **뉴비인증#312512**')
                         elif check is None:
-                            return await ctx.send(f'{message.author.mention}, 올바르지 않은 입력. 예시처럼 띄어쓰기 없이 정확히 입력해주세요. 예시: **뉴비인증#{random_code}**')
+                            return await ctx.send(f'{message.author.mention}, 올바르지 않은 입력. 예시처럼 띄어쓰기 없이 정확히 입력해주세요. 예시: **뉴비인증#312512**')
                         elif check is None:
-                            return await ctx.send(f'{message.author.mention}, 올바르지 않은 입력. 예시처럼 띄어쓰기 없이 정확히 입력해주세요. 예시: **뉴비인증#{random_code}**')
+                            return await ctx.send(f'{message.author.mention}, 올바르지 않은 입력. 예시처럼 띄어쓰기 없이 정확히 입력해주세요. 예시: **뉴비인증#312512**')
                         else:
                             if check1 is not None:
                                 await cur.execute(f'update {tablename} set state="1" where code="{code}"')
@@ -74,7 +73,7 @@ class newbie(commands.Cog):
                             elif check3 is not None:
                                 return await ctx.send(f'{message.author.mention}, 이미 인증되어있는 코드입니다.')
                     elif message.content.startswith(""):
-                        await ctx.send(f'{message.author.mention}, 올바르지 않은 입력. 예시처럼 띄어쓰기 없이 정확히 입력해주세요. 예시: **뉴비인증#{random_code}**')
+                        await ctx.send(f'{message.author.mention}, 올바르지 않은 입력. 예시처럼 띄어쓰기 없이 정확히 입력해주세요. 예시: **뉴비인증#312512**')
         except Exception as e:
             return await ctx.send(f'{message.author.mention}, 오류가 발생하였습니다.\n`{e}`')
 
