@@ -1,4 +1,4 @@
-import aiomysql, discord,
+import aiomysql, discord
 from discord.ext import commands
 from realw_newbie.bot import json_data
 
