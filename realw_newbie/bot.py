@@ -21,7 +21,3 @@ def load_extension():
     except Exception as e:
         ctypes.windll.user32.MessageBoxW(0, f"오류가 발생하였습니다.\n\n{e}", "Error", 0)
         quit()
-
-def load_module():
-    os.system('pip install -r realw_newbie/requirements.txt')
-    os.system('cls')
