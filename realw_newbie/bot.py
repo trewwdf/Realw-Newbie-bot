@@ -1,4 +1,4 @@
-import discord, ctypes, webbrowser, json, os
+import discord, ctypes, json
 from discord.ext import commands
 
 f = open('config.json', 'r', encoding="utf-8")
