@@ -4,8 +4,7 @@ from discord.ext import commands
 f = open('config.json', 'r', encoding="utf-8")
 json_data = json.load(f)
 
-bot = commands.Bot(command_prefix='')
-bot.remove_command("help")
+bot = commands.Bot(command_prefix='', help_command=None)
 token = json_data['bot']['token']
 
 cogs = [
