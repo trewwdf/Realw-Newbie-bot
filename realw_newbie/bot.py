@@ -9,8 +9,7 @@ token = json_data['bot']['token']
 
 cogs = [
     "newbie",
-    "error",
-    "ready"
+    "events"
 ]
 
 def load_extension():
