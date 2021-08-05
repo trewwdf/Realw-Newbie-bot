@@ -11,8 +11,8 @@ class ready(commands.Cog):
         print('Newbie BOT has Ready.')
         
     @commands.Cog.listener()
-        async def on_command_error(self, ctx, error):
-            if isinstance(error, commands.CommandNotFound):
-                pass
+    async def on_command_error(self, ctx, error):
+        if isinstance(error, commands.CommandNotFound):
+            pass
 def setup(bot):
     bot.add_cog(ready(bot))
