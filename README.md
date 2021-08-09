@@ -1,12 +1,8 @@
 # Realw Newbie bot
 
-[![RAID Join](https://discord.com/api/guilds/678572912797679617/widget.png?style=banner2)](https://discord.gg/raidkr)
-
 [FiveM 리얼월드 서버팩의 데이터베이스 기반으로 제작하였습니다.](https://github.com/fivem-realw/RWServer)
 
-배포하더라도, 출처는 꼭 밝혀주세요! (해당 Github 주소 첨부 필수)
-
-기초적인 틀만 짰습니다. 알아서 수정해서 사용하시면 됩니다.
+따로 배포하더라도, 출처는 꼭 밝혀주세요! (해당 Github 주소 첨부 필수)
 
 ## **Setting**
 
