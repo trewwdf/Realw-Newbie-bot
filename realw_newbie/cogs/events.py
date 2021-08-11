@@ -8,7 +8,7 @@ class ready(commands.Cog):
     async def on_ready(self):
         print(self.bot.user)
         print(self.bot.user.id)
-        print('Newbie BOT has Ready.\nMade By 대권#6')
+        print('Newbie BOT has Ready.\nMade By 대권#6791')
         
     @commands.Cog.listener()
     async def on_command_error(self, ctx, error):
