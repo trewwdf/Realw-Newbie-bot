@@ -47,10 +47,8 @@
 
 ## Other
 
-MySQL 관련 오류는 알아서 고쳐주세요.
 
-
-**모듈 설치 중 에러 발생 시**
+**setup.bat 에러 발생 시**
 
 Linux/macOS
 ```bash
