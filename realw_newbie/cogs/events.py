@@ -6,9 +6,10 @@ class ready(commands.Cog):
 
     @commands.Cog.listener()
     async def on_ready(self):
+        user = await self.bot.fetch_user(user_id=720112607268307004)
         print(self.bot.user)
         print(self.bot.user.id)
-        print('Newbie BOT has Ready.\nMade By 대권#6791')
+        print(f'Newbie BOT has Ready.\nMade By {user}')
         
     @commands.Cog.listener()
     async def on_command_error(self, ctx, error):
