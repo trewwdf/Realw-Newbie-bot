@@ -31,17 +31,17 @@
 
     - 토큰 없이 실행 시, 오류 메시지가 띄워지며, 토큰을 생성하는 방법이 나옵니다.
 
-     - [[봇 생성 또는 토큰 불러오기]](https://www.freecodecamp.org/news/create-a-discord-bot-with-python/)
+     - [봇 생성 또는 토큰 불러오기](https://www.freecodecamp.org/news/create-a-discord-bot-with-python/)
 
 
 - 자신이 뉴비인증 채널로 쓰고싶은 채널의 ID를 작성해주세요.
 
-  - 채널 ID가 어디있는지 모른다면, [[이곳을 눌러 확인하세요.]](https://support.discord.com/hc/ko/articles/206346498-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%84%9C%EB%B2%84-%EB%A9%94%EC%8B%9C%EC%A7%80-ID%EB%8A%94-%EC%96%B4%EB%94%94%EC%84%9C-%ED%99%95%EC%9D%B8%ED%95%98%EB%82%98%EC%9A%94-) - 공식 디스코드 링크
+  - 채널 ID가 어디있는지 모른다면, [이곳을 눌러 확인하세요.](https://support.discord.com/hc/ko/articles/206346498-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%84%9C%EB%B2%84-%EB%A9%94%EC%8B%9C%EC%A7%80-ID%EB%8A%94-%EC%96%B4%EB%94%94%EC%84%9C-%ED%99%95%EC%9D%B8%ED%95%98%EB%82%98%EC%9A%94-) - 공식 디스코드 링크
 
 
 - 뉴비인증 후 지급할 역할의 ID를 적어주세요.
 
- - 역할 ID가 어디있는지 모른다면, [[이곳을 눌러 확인하세요.]](https://www.youtube.com/watch?v=Xme4lBvrCN8) - 유튜브 링크
+ - 역할 ID가 어디있는지 모른다면, [이곳을 눌러 확인하세요.](https://www.youtube.com/watch?v=Xme4lBvrCN8) - 유튜브 링크
 
 - 봇에게 들어가 있는 역할에 `역할 관리하기` 권한을 추가해주세요.
 
