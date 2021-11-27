@@ -1,20 +1,21 @@
-{
-  "database":{
+Database_Connect = {
     "host": "localhost",
     "basename": "vrpfx",
     "username": "root",
     "passwd": "",
-    "port": "3306",
-
-    "tablename": "vrp_newbie_bonus"
-  },
-
-  "bot":{
-    "token": "토큰"
-  },
-
-  "botsettings":{
-    "channel": "인증 채널 ID",
-    "role": "인증 역할 ID"
-  }
+    "port": 3306,
 }
+
+Database = {
+    "tablename": "vrp_newbie_bonus"
+}
+
+Bot = {
+    "token": "토큰"
+}
+
+Settings = {
+    "Channel": 123,
+
+    "Role": 123
+} 

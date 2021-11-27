@@ -15,5 +15,6 @@ class ready(commands.Cog):
     async def on_command_error(self, ctx, error):
         if isinstance(error, commands.CommandNotFound):
             pass
+        
 def setup(bot):
     bot.add_cog(ready(bot))
