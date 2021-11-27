@@ -1,4 +1,4 @@
-# Realw Newbie bot (2021.09.01. 정상 작동 확인됨.)
+# Realw Newbie bot (2021.11.28. 정상 작동 확인됨.)
 [FiveM 리얼월드 서버팩의 데이터베이스 기반으로 제작하였습니다.](https://github.com/fivem-realw/RWServer)
 
 해당 레파지토리는 **2021.01.27**에 게시되었습니다.
