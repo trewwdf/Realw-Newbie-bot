@@ -7,7 +7,7 @@ Database_Connect = {
 }
 
 Database = {
-    "tablename": "vrp_newbie_bonus"
+    "table_name": "vrp_newbie_bonus"
 }
 
 Bot = {
