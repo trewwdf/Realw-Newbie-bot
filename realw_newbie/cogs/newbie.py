@@ -57,7 +57,7 @@ class newbie(commands.Cog):
                     elif message.content.startswith(""):
                         await message.channel.send(config.Message['NotFound_Code'].format(message.author.mention, "예시: **뉴비인증#312512**"))
         except Exception as e:
-            return await message.channel.send(f'{message.author.mention}, 오류가 발생하였습니다.\n`{e.__class__.__name__}`')
+            return await message.channel.send(f'{message.author.mention}, 오류가 발생하였습니다.\n`{e.__class__.__name__}: {e}`')
 
 
 def setup(bot):

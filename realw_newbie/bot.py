@@ -5,7 +5,7 @@ import os
 from discord.ext import commands
 from datetime import datetime
 
-bot = commands.Bot(command_prefix=None, help_command=None)
+bot = commands.Bot(command_prefix="", help_command=None)
 
 def load_extension():
     try:
@@ -17,7 +17,7 @@ def load_extension():
         os.system("pause")
 
 async def connect_mysql():
-    connection = await aiomysql.connect(host=config.Database_Connect['host'], user=config.Database_Connect['username'], password=config.Database_Connect['password'], db=config.Database_Connect['basename'], port=config.Database_Connect['port'], autocommit=True)
+    connection = await aiomysql.connect(host=config.Database_Connect['host'], user=config.Database_Connect['username'], password=config.Database_Connect['passwd'], db=config.Database_Connect['basename'], port=config.Database_Connect['port'], autocommit=True)
     cur = await connection.cursor()
     return cur
 
