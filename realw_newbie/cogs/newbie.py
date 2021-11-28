@@ -1,6 +1,5 @@
 import discord
 import config
-import sys, os
 from discord.ext import commands
 from realw_newbie.bot import connect_mysql
 
