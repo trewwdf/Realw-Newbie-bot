@@ -47,11 +47,7 @@ class newbie(commands.Cog):
                             check3 = await cur.fetchone()
 
                             if check1 is not None:
-<<<<<<< HEAD
-                                await cur.execute(f'update ? set state = "1" where code = "{code}"')
-=======
                                 await cur.execute(f'update {Table_name} set state = "1" where code = "{code}"')
->>>>>>> 12a8a35709637c38481ec675c8085d2d7d63a929
                                 await message.channel.send(config.Message['Success_Code'].format(message.author.mention))
                                 return await message.author.add_roles(discord.utils.get(message.guild.roles, id=config.Settings['Role']))
                             elif check2 is not None:
