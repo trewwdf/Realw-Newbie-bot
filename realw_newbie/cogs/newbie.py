@@ -29,7 +29,7 @@ class newbie(commands.Cog):
                         except ValueError:
                             return await message.channel.send(config.Message['NotFound_Code'].format(message.author.mention, "예시: **뉴비인증#312512**"))
                         
-                        await cur.execute(f'select code from {Table_name} where code = {code}',)
+                        await cur.execute(f'select code from {Table_name} where code = {code}')
                         check = await cur.fetchone()
 
                         if len(code_value) == 0:
@@ -37,17 +37,17 @@ class newbie(commands.Cog):
                         elif check is None:
                             return await message.channel.send(config.Message['NotFound_Code'].format(message.author.mention, "예시: **뉴비인증#312512**"))
                         else:
-                            await cur.execute(f'select * from {Table_name} where state = "0" and code = {code}',)
+                            await cur.execute(f'select * from {Table_name} where state = "0" and code = {code}')
                             check1 = await cur.fetchone()
 
-                            await cur.execute(f'select * from {Table_name} where state = "1" and code = {code}',)
+                            await cur.execute(f'select * from {Table_name} where state = "1" and code = {code}')
                             check2 = await cur.fetchone()
 
-                            await cur.execute(f'select * from {Table_name} where state = "2" and code = {code}',)
+                            await cur.execute(f'select * from {Table_name} where state = "2" and code = {code}')
                             check3 = await cur.fetchone()
 
                             if check1 is not None:
-                                await cur.execute(f'update ? set state = "1" where code = {code}',)
+                                await cur.execute(f'update ? set state = "1" where code = {code}')
                                 await message.channel.send(config.Message['Success_Code'].format(message.author.mention))
                                 return await message.author.add_roles(discord.utils.get(message.guild.roles, id=config.Settings['Role']))
                             elif check2 is not None:
