@@ -4,7 +4,7 @@ import os
 from realw_newbie.bot import bot, load_extension
 
 try:
-    if token := config.Bot['token']:
+    if token := config.Bot['OTE4NTM0MjgzNTU0MDY2NDcy.YbIptg.H5qiMUrIOB_i02DMhUpa9jvXMrk']:
         load_extension()
         bot.run(token)
 except discord.LoginFailure as e:
